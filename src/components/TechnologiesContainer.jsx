@@ -8,6 +8,7 @@ import {
     DiGit,
     DiNodejs,
     DiMysql,
+    DiLaravel,
 } from 'react-icons/di'
 
 import '../styles/components/technologiescontainer.sass'
@@ -19,9 +20,10 @@ const technologies = [
     {id: "css", name: "CSS3", icon: <DiCss3 />},
     {id: "sass", name: "Sass", icon: <DiSass />},
     {id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap />},
-    {id: "git", name: "Git", icon: <DiGit />},
+    {id: "laravel", name: "Laravel", icon: <DiLaravel />},
     {id: "node", name: "Node.js", icon: <DiNodejs />},
     {id: "mysql", name: "MySQL", icon: <DiMysql />},
+    {id: "git", name: "Git", icon: <DiGit />},
 ]
 
 const TechnologiesContainer = () => {
@@ -29,13 +31,13 @@ const TechnologiesContainer = () => {
         <h2>Tecnologias</h2>
         <div className="technologies-grid">
             {technologies.map((tech) => (
-                <div className="technology-card" id={tech.id} key={tech.id}>
+                <a className="technology-card" id={tech.id} key={tech.id}>
                     {tech.icon}
                     <div className="technology-info">
                         <h3>{tech.name}</h3>
                         <p>Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
-                </div>
+                </a>
             ))}
         </div>
     </section>

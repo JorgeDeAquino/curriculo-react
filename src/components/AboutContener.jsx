@@ -4,8 +4,10 @@ const AboutContainer = () => {
     return (
         <section className="about-container">
             <h2>Sobre</h2>
-            <p>Lorem  dolor sit amet consectetur adipisicing elit. Unde, inventore eius, adipisci rem corrupti quibusdam nihil ratione voluptas cum eligendi eum quam ipsam molestias debitis voluptatem commodi voluptates aspernatur laboriosam.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam eos magnam unde dolorem adipisci vel asperiores atque aspernatur facere, fuga possimus facilis deleniti dignissimos ad. Ducimus dolorum atque error maiores.</p>
+            <p>Programador Front End ativo e habilidoso, com conhecimento relacionado a experiência do usuário e acessibilidade, utilizando os conceitos de Scrum para desenvolvimento de forma ágil.
+            </p>
+            <p>Atualmente trabalho com React, tenho experiência no desenvolvimento de projetos utilizando HTML, CSS e JavaScript. Geralmente utilizo o Sass para o pré-processamento do CSS e também os frameworks Bootstrap e Tailwind a depender da demanda e estilização do projeto.</p>
+            <p>Habilidades: autodidatismo, humanização para com a abordagem dos clientes, visão estratégica, adaptabilidade e expertise na solução de conflitos em equipes.</p>
         </section>
     )
 }
