@@ -16,17 +16,17 @@ export const StyledTechnologiesContainer = styled.div`
         padding: .3rem;
         border: 1px solid #333;
         width: 40%;
-        border-radius: 5px;
-        background-color: royalblue;
+        border-radius: var(--card-border-radius);
+        background-color: var(--bg-color-secondary);
     }
 
     .technology-info {
-        width: 40%;
-        margin-left: 3%;
+        width: 35%;
+        margin-left: 5%;
     }
 
         h3 {
-            color: grey;
+            color: var(--text-color);
             font-size: 1.7rem;
         }
 

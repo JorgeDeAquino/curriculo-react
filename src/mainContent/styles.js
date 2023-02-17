@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const StyledMainContent = styled.section`
-  background-color: #ccc;
-  flex: 1.7 1 0;
-  border-radius: 8px;
+  background-color: var(--bg-color);
+  flex: 1.8 1 0;
+  border-radius: var(--border-radius);
   padding: 3rem;
 
   section {
@@ -12,9 +12,9 @@ export const StyledMainContent = styled.section`
   }
 
   h2 {
-    color: red;
-    font-size: 2.2rem;
-    margin-bottom: 1.3rem;
+    color: var(--emphasis);
+    font-size: var(--font-size-title);
+    margin-bottom: var(--margin-distance);
     display: flex;
     align-items: center;
     justify-content: start;
@@ -22,16 +22,18 @@ export const StyledMainContent = styled.section`
 
     &::after {
       content: "";
-      background: violet;
-      height: 3px;
+      background: var(--detail);
+      height: 2.8px;
       width: 30%;
     }
   }
 
   p {
-    color: black;
-    margin-bottom: 1rem;
-    line-height: 1.4rem;
+    color: var(--text-color);
+    margin-bottom: var(--margin-distance);
+    line-height: 1.5rem;
+    font-size: var(--font-size-text);
+    text-align: justify;
   }
 
   .btn{

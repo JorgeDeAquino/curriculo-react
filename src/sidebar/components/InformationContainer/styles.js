@@ -6,7 +6,7 @@ export const StyledInformationContainer = styled.section`
     border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
-    margin-top: var(--margin-top-padrao);
+    margin-top: var(--margin-distance);
     padding: 1rem 0 .5rem 0;
     text-align: center;
     width: 95%;

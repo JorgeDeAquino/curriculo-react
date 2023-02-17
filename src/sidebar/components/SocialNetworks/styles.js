@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledSocialNetworks = styled.div`
   display: flex;
   gap: 2rem;
-  margin-top: var(--margin-top-padrao);
+  margin-top: var(--margin-distance);
 
   .social-btn {
         padding: .6rem;
@@ -13,7 +13,7 @@ export const StyledSocialNetworks = styled.div`
         font-size: 2rem;
 
         :hover {
-            background: var(--gradient);
+            background: var(--detail);
             svg {
                 color: var(--text-color-secondary);
                 transition: .6s;

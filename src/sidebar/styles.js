@@ -22,7 +22,7 @@ export const StyledSidebar = styled.aside`
   h1 {
     width: 100%;
     font-size: var(--font-size-title);
-    margin-top: var(--margin-top-padrao);
+    margin-top: var(--margin-distance);
     background: var(--text-color-secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -38,10 +38,10 @@ export const StyledSidebar = styled.aside`
   }
 
   .btn {
-    margin-top: var(--margin-top-padrao);
+    margin-top: var(--margin-distance);
     padding: 1rem 1.2rem;
     color: var(--text-color);
-    background: var(--gradient);
+    background: var(--emphasis);
     text-decoration: none;
     border-radius: var(--border-radius);
     font-size: var(--font-size-text);

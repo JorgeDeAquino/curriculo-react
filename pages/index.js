@@ -12,13 +12,14 @@ const GlobalStyle = createGlobalStyle`
       --text-color-secondary: #fdfdfd;
       --body-bg-color: #e8f1f2;
       --bg-color: #13293d;
-      --bg-color-secondary: rgba(36, 123, 160, .3);
-      --gradient: linear-gradient(90deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36,118,1) 100%);
+      --bg-color-secondary: rgba(36, 123, 160, .2);
+      --emphasis: #ff0000;
+      --detail: #ee82ee;
       --border-radius: 7px;
       --card-border-radius: 5px;
       --font-size-title: 2.5rem;
       --font-size-text: 1.4rem;
-      --margin-top-padrao: 1.5rem;
+      --margin-distance: 1.5rem;
       font-family: sans-serif;
       margin: 0;
   }
