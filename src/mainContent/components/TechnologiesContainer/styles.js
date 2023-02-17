@@ -70,10 +70,6 @@ export const StyledTechnologiesContainer = styled.div`
             color: #83cd29;
         }
 
-        #mysql svg {
-            color: #00618a;
-        }
-
         #laravel svg {
             color: #F05340;
         }

@@ -8,7 +8,6 @@ import {
     DiSass,
     DiBootstrap,
     DiNodejs,
-    DiMysql,
     DiLaravel,
 } from 'react-icons/di'
 
@@ -26,7 +25,6 @@ const technologies = [
     {id: "bootstrap", name: "Bootstrap", icon: <DiBootstrap />},
     {id: "node", name: "Node.js", icon: <DiNodejs />},
     {id: "laravel", name: "Laravel", icon: <DiLaravel />},
-    {id: "mysql", name: "MySQL", icon: <DiMysql />},
 ]
 
 const TechnologiesContainer = () => {
