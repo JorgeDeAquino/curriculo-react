@@ -14,6 +14,9 @@ export default function ProjectsContainer() {
       <a href="" className="btn">
         Ver Projeto
       </a>
+      <a href="" className="btn">
+        Ver Repositorio
+      </a>
     </StyledProjectsContainer>
   );
 }
