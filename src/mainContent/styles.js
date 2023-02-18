@@ -23,7 +23,7 @@ export const StyledMainContent = styled.section`
     &::after {
       content: "";
       background: var(--detail);
-      height: 2.8px;
+      height: 3px;
       width: 30%;
     }
   }

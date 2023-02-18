@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
       --bg-color: #13293d;
       --bg-color-secondary: rgba(36, 123, 160, .2);
       --emphasis: #ff0000;
-      --detail: #ee82ee;
+      --detail: linear-gradient(90deg, rgba(250, 82, 82, 1) 0%, rgba(221, 36,118,1) 100%);
       --border-radius: 7px;
       --card-border-radius: 5px;
       --font-size-title: 2.5rem;
