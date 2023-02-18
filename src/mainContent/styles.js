@@ -35,13 +35,4 @@ export const StyledMainContent = styled.section`
     font-size: var(--font-size-text);
     text-align: justify;
   }
-
-  .btn{
-    padding: 1rem 1.2rem;
-    color: blue;
-    background: green;
-    text-decoration: none;
-    border-radius: 3rem;
-    align-self: start;
-  }
 `;
