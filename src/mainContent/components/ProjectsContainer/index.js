@@ -5,17 +5,18 @@ export default function ProjectsContainer() {
     return (
         <StyledProjectsContainer>
             <h2>Projeto em Destaque</h2>
+            <h3> Ja Organo Rock </h3>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-                deserunt, et nisi sit, ullam corporis vero eaque optio, maiores
-                aspernatur odio culpa animi? Sint quo, facilis sapiente hic nesciunt
-                molestiae.
+            Projeto que você pode entender o um pouco mais sobre alguns dos vários estilos do Rock e fazer as alterações que desejar, através de adição de bandas aos estilos ou até mesmo a criação de um estilo que sentiu falta.
+            </p>
+            <p>
+            As tecnologias utilizadas foram Next Js, React, JavaScript, HTML e CSS 
             </p>
             <div className="links">
-                <a href="" className="btn">
-                    Ver Projeto
+                <a href="https://ja-organo-rock.vercel.app/" className="btn" target={'_blank'}>
+                    Confira o Resultado
                 </a>
-                <a href="" className="btn">
+                <a href="https://github.com/JorgeDeAquino/Ja-Organo-Rock" className="btn" target={'_blank'}>
                     Ver Repositorio
                 </a>
             </div>

@@ -6,10 +6,18 @@ export const StyledProjectsContainer = styled.div`
     p {
         margin-top: var(--margin-distance);
         text-align: justify;
+        font-size: var(--font-size-text);
+        line-height: 2rem;
+    }
+    
+    h3 {
+        text-align: justify;
+        color: var(--text-color);
+        font-size: 1.8rem;
     }
     
     .links{
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
     
     .btn {
