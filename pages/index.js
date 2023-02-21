@@ -30,6 +30,11 @@ const GlobalStyle = createGlobalStyle`
     gap: 1rem;
     padding: 5% .5rem 2% .5rem;
     background-color: var(--body-bg-color);
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      padding: 10% .3rem 2% .3rem;
+    }
   }
 `;
 
