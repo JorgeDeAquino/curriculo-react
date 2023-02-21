@@ -18,6 +18,11 @@ export const StyledTechnologiesContainer = styled.div`
         width: 40%;
         border-radius: var(--card-border-radius);
         background-color: var(--bg-color-secondary);
+        
+        @media (max-width: 320px) {
+            width: 90%;
+            padding-left: .5rem;
+        }
     }
 
     .technology-info {

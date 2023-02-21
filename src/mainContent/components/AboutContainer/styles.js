@@ -9,6 +9,7 @@ export const StyledAboutContainer = styled.section`
 
     p {
         padding-left: .8rem;
+        
         @media (max-width: 320px) {
             padding-left: .5rem;
         }
