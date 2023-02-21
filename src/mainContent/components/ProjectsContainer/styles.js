@@ -12,7 +12,7 @@ export const StyledProjectsContainer = styled.div`
         margin-top: 2rem;
     }
     
-    .btn{
+    .btn {
         padding: 1rem 1.2rem;
         color: var(--text-color);
         font-size: var(--font-size-text);
