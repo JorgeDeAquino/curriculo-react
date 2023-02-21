@@ -10,6 +10,11 @@ export const StyledSidebar = styled.aside`
   text-align: center;
   position: relative;
   padding-top: 7rem;
+  
+  @media (max-width: 320px) {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    }
 
   img {
     width: 60%;
@@ -17,6 +22,11 @@ export const StyledSidebar = styled.aside`
     border-radius: var(--border-radius);
     position: absolute;
     top: -3rem;
+
+    @media (max-width: 320px) {
+      top: -1.7rem;
+      width: 70%;
+    }
   }
 
   h1 {
