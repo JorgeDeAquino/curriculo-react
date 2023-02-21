@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     display: flex;
     gap: 1rem;
-    padding: 5% .5rem;
+    padding: 5% .5rem 2% .5rem;
     background-color: var(--body-bg-color);
   }
 `;
