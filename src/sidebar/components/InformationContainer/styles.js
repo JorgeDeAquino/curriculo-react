@@ -18,6 +18,12 @@ export const StyledInformationContainer = styled.section`
         gap: 1rem;
         padding-bottom: 1.2rem;
         width: 100%;
+        
+        @media (max-width: 320px) {
+            padding-bottom: 1rem;
+            gap: .5rem;
+            flex-direction: column;
+        }
 
         div {
             display: flex;
@@ -28,6 +34,10 @@ export const StyledInformationContainer = styled.section`
             font-size: var(--font-size-text);
             color: var(--text-color);
             font-weight: 500;
+            
+            @media (max-width: 320px) {
+                font-size: 1.3rem;
+            }
         }
 
         svg {
