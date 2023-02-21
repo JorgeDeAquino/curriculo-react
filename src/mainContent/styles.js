@@ -5,6 +5,10 @@ export const StyledMainContent = styled.section`
   flex: 1.8 1 0;
   border-radius: var(--border-radius);
   padding: 3rem;
+  
+  @media (max-width: 320px) {
+    padding: .7rem;
+  }
 
   section {
     display: flex;
@@ -25,6 +29,10 @@ export const StyledMainContent = styled.section`
       background: var(--detail);
       height: 3px;
       width: 30%;
+    }
+
+    @media (max-width: 320px) {
+      padding: .5rem 0 0 .3rem;
     }
   }
 
