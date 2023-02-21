@@ -1,4 +1,8 @@
-<h1> Curriculum Vitae em React </h1>
+<h1> Curriculum em React </h1>
+
+<span> Conferira o resultado do projeto? Teste a funcionalidade através deste Link: [Clique Aqui](https://ja-curriculo.vercel.app/). </span>
+<br>
+<br>
 Este é um projeto de criação de um currículo em React.
 <br>
 <h2> Pré-requisitos </h2>
