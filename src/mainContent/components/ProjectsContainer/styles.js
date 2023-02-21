@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const StyledProjectsContainer = styled.div`
     margin-top: var(--margin-distance);
 
+    @media (max-width: 320px) {
+        padding: 0 .5rem 0 .5rem;
+    }
+
     p {
         margin-top: var(--margin-distance);
         text-align: justify;
@@ -18,6 +22,13 @@ export const StyledProjectsContainer = styled.div`
     
     .links{
         margin-top: 3rem;
+        
+        @media (max-width: 320px) {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
     }
     
     .btn {
@@ -30,6 +41,15 @@ export const StyledProjectsContainer = styled.div`
         align-self: start;
         &:first-child {
             margin-right: 2rem;
+            
+            @media (max-width: 320px) {
+                margin: 0;
+            }
+        }
+        
+        @media (max-width: 320px) {
+            padding: .8rem .8rem;
+            align-self: center;
         }
     }    
 `;
