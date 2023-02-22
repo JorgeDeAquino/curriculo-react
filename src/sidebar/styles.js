@@ -11,9 +11,18 @@ export const StyledSidebar = styled.aside`
   position: relative;
   padding-top: 7rem;
   
+  @media (max-width: 768px) {
+    padding-top: 30%;
+    padding-bottom: 2rem;
+    }
+
+  @media (max-width: 620px) {
+    padding-top: 35%;
+    padding-bottom: 2rem;
+    }
+
   @media (max-width: 425px) {
     padding-top: 33%;
-    padding-bottom: 2rem;
     }
 
   @media (max-width: 325px) {
@@ -26,8 +35,21 @@ export const StyledSidebar = styled.aside`
     border-radius: var(--border-radius);
     position: absolute;
     top: -3rem;
+    
+    @media (max-width: 768px) {
+      max-width: 350px;
+      top: -2.5rem;
+      width: 80%;
+    }
 
+    @media (max-width: 620px) {
+      max-width: 350px;
+      top: -2.7rem;
+      width: 70%;
+    }
+    
     @media (max-width: 425px) {
+      max-width: 300px;
       top: -1.7rem;
       width: 70%;
     }
