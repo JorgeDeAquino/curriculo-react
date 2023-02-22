@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledProjectsContainer = styled.div`
     margin-top: var(--margin-distance);
 
-    @media (max-width: 320px) {
+    @media (max-width: 425px) {
         padding: 0 .5rem 0 .5rem;
     }
 
@@ -23,7 +23,7 @@ export const StyledProjectsContainer = styled.div`
     .links{
         margin-top: 3rem;
         
-        @media (max-width: 320px) {
+        @media (max-width: 425px) {
             margin-top: 2rem;
             display: flex;
             flex-direction: column;
@@ -42,12 +42,12 @@ export const StyledProjectsContainer = styled.div`
         &:first-child {
             margin-right: 2rem;
             
-            @media (max-width: 320px) {
+            @media (max-width: 425px) {
                 margin: 0;
             }
         }
         
-        @media (max-width: 320px) {
+        @media (max-width: 425px) {
             padding: .8rem .8rem;
             align-self: center;
         }

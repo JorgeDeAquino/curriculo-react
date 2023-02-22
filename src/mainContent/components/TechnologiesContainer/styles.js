@@ -19,7 +19,7 @@ export const StyledTechnologiesContainer = styled.div`
         border-radius: var(--card-border-radius);
         background-color: var(--bg-color-secondary);
         
-        @media (max-width: 320px) {
+        @media (max-width: 425px) {
             width: 90%;
             padding-left: .5rem;
         }

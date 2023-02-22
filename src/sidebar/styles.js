@@ -11,9 +11,13 @@ export const StyledSidebar = styled.aside`
   position: relative;
   padding-top: 7rem;
   
-  @media (max-width: 320px) {
-    padding-top: 4rem;
+  @media (max-width: 425px) {
+    padding-top: 33%;
     padding-bottom: 2rem;
+    }
+
+  @media (max-width: 325px) {
+    padding-top: 4rem;
     }
 
   img {
@@ -23,7 +27,7 @@ export const StyledSidebar = styled.aside`
     position: absolute;
     top: -3rem;
 
-    @media (max-width: 320px) {
+    @media (max-width: 425px) {
       top: -1.7rem;
       width: 70%;
     }

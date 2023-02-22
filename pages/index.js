@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 5% .5rem 2% .5rem;
     background-color: var(--body-bg-color);
 
-    @media (max-width: 320px) {
+    @media (max-width: 425px) {
       flex-direction: column;
       padding: 10% .3rem 2% .3rem;
     }

@@ -19,7 +19,7 @@ export const StyledInformationContainer = styled.section`
         padding-bottom: 1.2rem;
         width: 100%;
         
-        @media (max-width: 320px) {
+        @media (max-width: 385px) {
             padding-bottom: 1rem;
             gap: .5rem;
             flex-direction: column;

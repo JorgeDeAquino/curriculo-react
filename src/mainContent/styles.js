@@ -6,7 +6,7 @@ export const StyledMainContent = styled.section`
   border-radius: var(--border-radius);
   padding: 3rem;
   
-  @media (max-width: 320px) {
+  @media (max-width: 425px) {
     padding: .7rem;
   }
 
@@ -31,7 +31,7 @@ export const StyledMainContent = styled.section`
       width: 30%;
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 425px) {
       padding: .5rem 0 0 .3rem;
     }
   }
