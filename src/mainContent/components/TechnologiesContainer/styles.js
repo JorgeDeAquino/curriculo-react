@@ -9,6 +9,12 @@ export const StyledTechnologiesContainer = styled.div`
         gap: 2rem;
         margin-left: 1rem;
 
+        @media (max-width: 1200px) {
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+        }
+
         @media (max-width: 1000px) {
             justify-content: space-between;
             padding-right: .5rem;
@@ -28,6 +34,10 @@ export const StyledTechnologiesContainer = styled.div`
         border-radius: var(--card-border-radius);
         background-color: var(--bg-color-secondary);
         
+        @media (max-width: 1200px) {
+            width: 44%;
+        }
+
         @media (max-width: 730px) {
             width: 70%;
         }
