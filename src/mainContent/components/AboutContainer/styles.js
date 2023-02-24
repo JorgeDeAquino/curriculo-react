@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const StyledAboutContainer = styled.section`
     padding-right: 3.5rem;
     
+    @media (max-width: 768px) {
+        padding-right: 1rem;
+    }
+
     @media (max-width: 425px) {
         padding-right: .5rem;
     }

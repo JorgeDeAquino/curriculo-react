@@ -8,6 +8,11 @@ export const StyledTechnologiesContainer = styled.div`
         flex-wrap: wrap;
         gap: 2rem;
         margin-left: 1rem;
+
+        @media (max-width: 768px) {
+            justify-content: space-between;
+            padding-right: .5rem;
+        }
     }
 
     .technology-card {
