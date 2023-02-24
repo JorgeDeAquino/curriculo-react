@@ -6,6 +6,9 @@ export const StyledProjectsContainer = styled.div`
     @media (max-width: 425px) {
         padding: 0 .5rem 0 .5rem;
     }
+    @media (max-width: 425px) {
+        padding: 0 .5rem 0 .5rem;
+    }
 
     p {
         margin-top: var(--margin-distance);
@@ -23,7 +26,7 @@ export const StyledProjectsContainer = styled.div`
     .links{
         margin-top: 3rem;
         
-        @media (max-width: 425px) {
+        @media (max-width: 580px) {
             margin-top: 2rem;
             display: flex;
             flex-direction: column;
@@ -42,14 +45,17 @@ export const StyledProjectsContainer = styled.div`
         &:first-child {
             margin-right: 2rem;
             
-            @media (max-width: 425px) {
+            @media (max-width: 580px) {
                 margin: 0;
             }
         }
         
-        @media (max-width: 425px) {
-            padding: .8rem .8rem;
+        @media (max-width: 1000px) {
             align-self: center;
+        }
+
+        @media (max-width: 500px) {
+            padding: .8rem .8rem;
         }
     }    
 `;
