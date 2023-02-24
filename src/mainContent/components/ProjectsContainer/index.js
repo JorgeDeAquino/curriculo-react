@@ -7,7 +7,7 @@ export default function ProjectsContainer() {
             <h2>Projeto em Destaque</h2>
             <h3> Ja Organo Rock </h3>
             <p>
-            Projeto que você pode entender o um pouco mais sobre alguns dos vários estilos do Rock e fazer as alterações que desejar, através de adição de bandas aos estilos ou até mesmo a criação de um estilo que sentiu falta.
+            Projeto em que você pode entender um pouco mais sobre alguns dos vários estilos do Rock e fazer as alterações que desejar, através de adição de bandas aos estilos ou até mesmo a criação de um estilo que sentiu falta.
             </p>
             <p>
             As tecnologias utilizadas foram Next Js, React, JavaScript, HTML e CSS 
